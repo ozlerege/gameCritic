@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
 .navbar-brand {
   font-family: "Staatliches";
 }
@@ -26,18 +27,28 @@ main {
 .container {
   font-family: "Staatliches";
   text-align: center;
+  margin-top: 20px;
 }
-.card-containers {
+h2 {
+  font-family: andale mono, monospace;
+}
+.container-lg-16 {
   display: flex;
+  column-gap: 20px;
+  align-content: space-between;
+  border: 4px solid black;
+  font-family: "Staatliches";
   justify-content: space-evenly;
   flex-wrap: wrap;
-  align-content: space-between;
-  flex-direction: row;
-  gap: 20px 20px;
+  border-radius: 10px;
 }
-.card-title {
+
+.text-container > h1 {
+  text-align: center;
+}
+h1 {
   font-family: "Staatliches";
 }
-.card-text {
-  font-family: andale mono, monospace;
+.col-md-6 > h2 {
+  text-align: center;
 }
